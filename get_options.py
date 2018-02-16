@@ -14,7 +14,9 @@ TESTING = True
 
 def get_options():
     parser = argparse.ArgumentParser(
-        description='simple script to showcase get_options.py',
+        description='simple script to showcase get_options.py' '. But I also '
+        'want to take this time to show implicit line joining :-)' + ' ' +
+        'You can use plus signs or not. :-)',
         formatter_class=argparse.RawTextHelpFormatter,
         epilog="Example:\n./get_options.py --version=2" + " " +
         '--parameter1="Yes"')
